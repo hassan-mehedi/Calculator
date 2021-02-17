@@ -1,0 +1,108 @@
+body {
+  background-color: #000000;
+  font-family: "Open Sans", sans-serif;
+}
+#container {
+  height: 600px;
+  width: 1000px;
+  background-image: url("C:/Users/User/Desktop/Dev/Calculator/images/blue.png");
+  margin: 20px auto;
+  border-radius: 10px;
+}
+#calculator {
+  height: 550px;
+  width: 350px;
+  position: relative;
+  top: 20px;
+  background-color: #eaedef;
+  border-radius: 5px;
+  margin: 0 auto;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+}
+#result {
+  height: 130px;
+}
+#keyboard {
+  height: 420px;
+}
+#history {
+  text-align: right;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #919191;
+  height: 25px;
+}
+#output {
+  text-align: right;
+  margin: 10px 20px;
+  height: 65px;
+  font-size: 30px;
+}
+.operator,
+.number,
+.empty {
+  height: 55px;
+  width: 55px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+.number,
+.operator {
+  background-color: #eaedef;
+  cursor: pointer;
+}
+.number:active,
+.operator:active {
+  font-size: 12px;
+}
+.number:focus,
+.operator:focus {
+  outline: 0;
+}
+
+/* Operator button Coloring */
+button:nth-child(1) {
+  background-color: #919191;
+  font-size: 18px;
+  color: white;
+}
+button:nth-child(2) {
+  background-color: #919191;
+  font-size: 18px;
+  color: white;
+}
+button:nth-child(3) {
+  background-color: #919191;
+  font-size: 18px;
+  color: white;
+}
+button:nth-child(4) {
+  background-color: seagreen;
+  font-size: 18px;
+  color: white;
+}
+button:nth-child(8) {
+  background-color: rgb(43, 117, 214);
+  font-size: 18px;
+  color: white;
+}
+button:nth-child(12) {
+  background-color: rgb(42, 169, 243);
+  font-size: 18px;
+  color: white;
+}
+button:nth-child(16) {
+  background-color: rgb(226, 189, 24);
+  font-size: 18px;
+  color: white;
+}
+button:nth-child(20) {
+  background-color: rgb(255, 17, 17);
+  font-size: 18px;
+  color: white;
+}
